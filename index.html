@@ -40,6 +40,7 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="cookie-popup.css" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -249,25 +250,41 @@
                 </div>
             </section>
         </div>
+
+        <div id="cookie-popup">
+            <p>
+                By using this site you agree to the storing of cookies on your device to
+                enhance site navigation and to analyze site usage. Learn more about our
+                <a href="cookie-policy.html">cookie policy</a>.
+            </p>
+            <p>
+                <button id="accept-cookies">Accept</button>
+            </p>
+        </div>
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="cookie-popup.js"></script>
 
 
         <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-B98YBLFK0B"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-B98YBLFK0B');
+    gtag('config', 'G-B98YBLFK0B');
 </script>
 
         <footer class="bg-dark text-white py-4">
             <div class="container text-center">
+                <small><a href="privacy-policy.html"> Privacy Policy</a></small>
                 <small>&copy; Luke Rubin</small>
+                <small><a href="terms.html"> Terms & Conditions</a></small>
+                <small><a href="cookie-policy.html"> Cookie Policy</a></small>
             </div>
         </footer>
 
